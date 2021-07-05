@@ -1,0 +1,69 @@
+section{
+    display: flex;
+}
+.half{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 100px;
+}
+h1{
+    font-size: 50px;
+}
+span{
+    color: orangered;
+}
+#ppic1{
+    height: 375px;
+}
+#ppic2{
+    height: 450px;
+    padding-top: 150px;
+    padding-left: 100px;
+}
+#about{
+    padding-top: 180px;
+    padding-right: 100px;
+}
+.bacgraound{
+    background-image: url(image/ppic6.png);
+    background-repeat: no-repeat;
+
+    
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient( orangered, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.centre{
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 40px;
+}
+.on-third{
+    width: 27%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    padding: 20px;
+    box-shadow: 15px 15px 40px gray;
+}
+.resize{
+    width: 354px;
+    height: 190px;
+}
+footer {
+    width: 100%;
+    height: 110px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+span{
+    color: orangered;
+}

@@ -1,11 +1,12 @@
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half{
     width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 h1{
     font-size: 50px;
@@ -17,13 +18,16 @@ span{
     height: 375px;
 }
 #ppic2{
+    width: 100%;
     height: 450px;
     padding-top: 150px;
-    padding-left: 100px;
+
 }
 #about{
+    width: 40%;
     padding-top: 180px;
-    padding-right: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .bacgraound{
     background-image: url(image/ppic6.png);
@@ -54,8 +58,9 @@ span{
     box-shadow: 15px 15px 40px gray;
 }
 .resize{
-    width: 354px;
-    height: 190px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 footer {
     width: 100%;
